@@ -1,0 +1,65 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+
+body{
+    background-color:rgb(71, 71, 72);
+    color:white;
+}
+
+.main{
+    display:flex;
+    align-items:center;
+    justify-content:left;
+}
+
+.container{
+    width:80%;
+    height:80vh;
+    margin:150px ;
+}
+
+span{
+    color:green;
+    border-bottom:4px solid green;
+    margin-bottom:30px;
+}
+
+#password{
+    width:400px;
+    height:40px;
+    margin-top: 20px;
+    padding: 10px;
+    outline:none;
+    border:none;
+    background-color:white;
+}
+
+.display{
+    display:flex;
+    align-items:center; 
+}
+
+.display i{
+    color:black;
+    margin-left:-30px;
+    font-size:25px;
+    margin-top:20px;
+    color: rgb(27, 167, 27);
+    font-weight:100;
+}
+
+
+.gnr-btn{
+    height:40px;
+    margin-top:20px;
+    background-color:rgb(51, 120, 51);
+    color:white;
+    padding:10px;   
+    outline:none;
+    border:none;
+}
+
